@@ -1,0 +1,44 @@
+.contactWithUs {
+    background     : url("../img/contactWithUs/contactWithUs_bg.jpg")center no-repeat;
+    color          : $contactWithUs-color;
+    background-size: cover;
+
+    &-content {
+
+        &-subtitle {
+            font-size  : $font-size-l;
+            font-weight: 400;
+        }
+
+        &-form {
+            margin-top: 75px;
+
+            &-submit {
+                background    : $contactWithUs-content-form-submit-bg;
+                color         : $contactWithUs-content-form-submit-color;
+                text-transform: uppercase;
+            }
+
+            &-input {
+                background: rgba(255, 255, 255, .3);
+                border    : none;
+
+                &::placeholder {
+                    color: $contactWithUs-content-form-input-placeholder-color;
+                }
+
+                &:focus {
+                    background: rgba(255, 255, 255, .3);
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .contactWithUs-content-form-submit {
+        width: 60%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

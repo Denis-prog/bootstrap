@@ -1,0 +1,104 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size  : $font-size-s-default;
+    color      : $main-color;
+}
+
+img {
+    width : 100%;
+    height: auto;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.main-title {
+    font-size    : $font-size-xxl;
+    font-weight  : 600;
+    margin-bottom: 30px;
+}
+
+.main-title-suptext {
+    font-family: 'Palatino Linotype', Palatino, serif;
+    font-weight: 500;
+    font-size  : $font-size-l;
+    font-style : italic;
+    display    : block;
+}
+
+.main-link-color-1 {
+    color         : $main-link-color-variable-1;
+    text-transform: uppercase;
+
+    &:hover {
+        color          : $main-link-color-variable-2;
+        text-decoration: none;
+    }
+}
+
+.main-link-color-2 {
+    color         : $main-link-color-variable-2;
+    text-transform: uppercase;
+}
+
+.main-link-read-more {
+    background : $main-link-read-more-bg;
+    padding    : 10px 15px;
+    white-space: nowrap;
+}
+
+.main-nav {
+    margin-bottom: 10px;
+
+    &-item {
+
+        &-link {
+            padding    : 15px 25px;
+            white-space: nowrap;
+        }
+
+        &-link.active {
+            background: $line-of-busines-nav-item-link-active-bg !important;
+        }
+    }
+}
+
+.main-link-hover:hover {
+    text-decoration: none;
+    color          : $main-link-hover-color;
+}
+
+@media(max-width: 894px) {
+
+    html,
+    body {
+        font-size: $font-size-xs;
+    }
+
+    p {
+        font-size: $font-size-s-default;
+    }
+}
+
+@media(max-width: 767px) {
+    section {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width: 500px) {
+
+    html,
+    body {
+        font-size: $font-size-xxs;
+    }
+}

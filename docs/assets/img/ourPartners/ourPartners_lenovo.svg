@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 170 33" version="1.1">
+	<g id="surface1">
+		<path style=" stroke:none;fill-rule:nonzero;fill:#000;fill-opacity:1;" d="M 23.65625 25.988281 L 7.859375 25.988281 L 7.859375 0.445312 L 0.816406 0.445312 L 0.816406 32.140625 L 23.65625 32.140625 Z M 23.65625 25.988281 ">
+			<animateTransform class="icon-logo-lenovo" attributeName="transform" id="firstAnimation" type="scale" from="1" to="1" values="1; 1.05; 1.05; 1;" keyTimes="0; 0.4; 0.7; 1" dur="0.2s" restart="whenNotActive" />
+		</path>
+		<path style=" stroke:none;fill-rule:nonzero;fill:#000;fill-opacity:1;" d="M 32.5 15.09375 C 33.683594 13.5625 35.570312 12.660156 37.847656 12.660156 C 40.351562 12.660156 42.25 14.039062 43.234375 16.074219 L 31.089844 20.933594 C 30.761719 18.441406 31.421875 16.488281 32.5 15.09375 M 45.851562 24.640625 C 42.929688 26.726562 41.257812 27.222656 38.589844 27.222656 C 36.1875 27.222656 34.308594 26.503906 32.984375 25.246094 L 50.75 18.140625 C 50.363281 15.492188 49.320312 13.125 47.71875 11.328125 C 45.382812 8.714844 41.929688 7.332031 37.71875 7.332031 C 30.078125 7.332031 24.316406 12.765625 24.316406 19.945312 C 24.316406 27.308594 30.09375 32.554688 38.488281 32.554688 C 43.191406 32.554688 47.996094 30.40625 50.246094 27.894531 Z M 45.851562 24.640625 ">
+			<animateTransform attributeName="transform" id="animation-second" type="scale" from="1" to="1" values="1; 1.05; 1.05; 1;" keyTimes="0; 0.4; 0.7; 1" begin="firstAnimation.begin+0.2s" dur="0.2s" restart="whenNotActive" />
+		</path>
+		<path style=" stroke:none;fill-rule:nonzero;fill:#000;fill-opacity:1;" d="M 68.449219 7.332031 C 65.535156 7.332031 62.222656 8.632812 60.195312 11.242188 L 60.199219 11.234375 L 60.195312 11.238281 L 60.199219 7.742188 L 53.25 7.742188 L 53.25 32.140625 L 60.195312 32.140625 L 60.195312 18.257812 C 60.195312 15.757812 62.207031 13.101562 65.925781 13.101562 C 68.804688 13.101562 71.777344 15.03125 71.777344 18.257812 L 71.777344 32.140625 L 78.726562 32.140625 L 78.726562 17.015625 C 78.726562 11.402344 74.5625 7.332031 68.449219 7.332031 ">
+			<animateTransform attributeName="transform" id="animation-third" type="scale" from="1" to="1" values="1; 1.05; 1.05; 1;" keyTimes="0; 0.4; 0.7; 1" begin="firstAnimation.begin+0.4s" dur="0.2s" restart="whenNotActive" />
+		</path>
+		<path style=" stroke:none;fill-rule:nonzero;fill:#000;fill-opacity:1;" d="M 95.03125 13.074219 C 91.152344 13.074219 88.332031 15.90625 88.332031 19.941406 C 88.332031 23.792969 91.316406 26.808594 95.125 26.808594 C 99.007812 26.808594 101.824219 23.898438 101.824219 19.941406 C 101.824219 16.089844 98.839844 13.074219 95.03125 13.074219 M 95.03125 32.550781 C 87.429688 32.550781 81.476562 27.09375 81.476562 19.941406 C 81.476562 12.871094 87.472656 7.332031 95.125 7.332031 C 102.726562 7.332031 108.679688 12.789062 108.679688 19.941406 C 108.679688 27.011719 102.683594 32.550781 95.03125 32.550781 ">
+			<animateTransform attributeName="transform" id="animation-fourth" type="scale" from="1" to="1" values="1; 1.05; 1.05; 1;" keyTimes="0; 0.4; 0.7; 1" begin="firstAnimation.begin+0.6s" dur="0.2s" restart="whenNotActive" />
+		</path>
+		<path style=" stroke:none;fill-rule:nonzero;fill:#000;fill-opacity:1;" d="M 128.121094 7.742188 L 121.839844 24.363281 L 115.554688 7.742188 L 107.617188 7.742188 L 118.03125 32.132812 L 125.644531 32.132812 L 136.058594 7.742188 Z M 128.121094 7.742188 ">
+			<animateTransform attributeName="transform" id="animation-fifth" type="scale" from="1" to="1" values="1; 1.05; 1.05; 1;" keyTimes="0; 0.4; 0.7; 1" begin="firstAnimation.begin+0.8s" dur="0.2s" restart="whenNotActive" />
+		</path>
+		<path style=" stroke:none;fill-rule:nonzero;fill:#000;fill-opacity:1;" d="M 148.539062 13.074219 C 144.65625 13.074219 141.839844 15.90625 141.839844 19.941406 C 141.839844 23.792969 144.824219 26.808594 148.628906 26.808594 C 152.511719 26.808594 155.328125 23.898438 155.328125 19.941406 C 155.328125 16.089844 152.347656 13.074219 148.539062 13.074219 M 148.539062 32.550781 C 140.9375 32.550781 134.980469 27.09375 134.980469 19.941406 C 134.980469 12.871094 140.976562 7.332031 148.628906 7.332031 C 156.230469 7.332031 162.183594 12.789062 162.183594 19.941406 C 162.183594 27.011719 156.191406 32.550781 148.539062 32.550781 ">
+			<animateTransform attributeName="transform" id="animation-sixth" type="scale" from="1" to="1" values="1; 1.05; 1.05; 1;" keyTimes="0; 0.4; 0.7; 1" begin="firstAnimation.begin+1s" dur="0.2s" restart="whenNotActive" />
+		</path>
+	</g>
+	<defs>
+		<script>
+			setTimeout(
+			function restartAnimationIcon() {
+			const firstAnimates = document.querySelector('.icon-logo-lenovo');
+			firstAnimates.beginElement();
+			setTimeout(restartAnimationIcon, Math.floor((Math.random() * (20000 - 5000)) + 5000));
+			}, Math.floor((Math.random() * (20000 - 5000)) + 5000),
+			);
+		</script>
+	</defs>
+</svg>

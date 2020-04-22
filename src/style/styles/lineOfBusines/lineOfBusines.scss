@@ -1,0 +1,50 @@
+.line-of-busines {
+    background         : url('../img/lineOfBusines/lineOfBusines_world_map.jpg') no-repeat;
+    background-size    : cover;
+    background-position: center;
+    padding-left       : 15px;
+    padding-right      : 15px;
+
+    &-content {
+
+        &-link {
+            margin-top : 15px;
+        }
+    }
+}
+
+@media(max-width: 991px) {
+
+    .line-of-busines-nav-item-link {
+        font-size: $font-size-xxs;
+    }
+
+    .line-of-busines-nav {
+        margin-right: 30px;
+    }
+
+    .line-of-busines-content-item-link {
+        font-size: $font-size-xxs;
+    }
+
+    .line-of-busines-content-item.active {
+        display: flex !important;
+    }
+}
+
+@media(max-width: 767px) {
+
+    .line-of-busines-nav-item-link {
+        font-size: $font-size-s-default;
+    }
+
+    .line-of-busines-nav {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .line-of-busines {
+        background-size    : contain;
+        background-position: 50% 40%;
+    }
+}

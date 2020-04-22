@@ -1,0 +1,50 @@
+.our-work {
+
+    padding-top: 50px;
+
+    background: $our-work-bg;
+
+    &-content {
+
+        &-top {
+
+            &-text {
+                margin-bottom: 50px;
+            }
+
+            &-nav {
+                margin-bottom: 50px;
+            }
+        }
+
+        &-bottom {
+
+            &-media {
+                grid-gap             : 2vw;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows   : repeat(1, 1fr);
+
+                &-link {
+                    justify-self: center;
+                    grid-column : 1/-1;
+
+                    &-item {
+                        margin-top: 50px;
+                    }
+                }
+            }
+
+            &-media.active {
+                display: grid !important;
+            }
+
+        }
+    }
+}
+
+@media(max-width: 767px) {
+
+    .our-work-content-bottom-media {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

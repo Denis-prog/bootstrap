@@ -1,0 +1,46 @@
+.our-partners {
+    background: $our-partners-bg;
+
+    &-content {
+
+        &-item {
+            width          : 25%;
+            margin-bottom  : 10px;
+            display        : flex;
+            justify-content: center;
+            align-items    : center;
+
+            &-img {
+                width: 50%;
+
+                &-apple {
+                    width: 25%;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 575px) {
+    .our-partners-content-item {
+        width        : 50%;
+        margin-bottom: 30px;
+
+        &-adidas {
+            margin-bottom: 40px;
+        }
+
+        &-img {
+            width: 35%;
+
+            &-apple {
+                width: 15%;
+            }
+        }
+    }
+
+    .our-partners {
+        padding-top   : 50px;
+        padding-bottom: 0;
+    }
+}

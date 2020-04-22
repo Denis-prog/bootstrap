@@ -1,0 +1,13 @@
+.join-us {
+    background: url('../img/joinUs/joinUs_bg.jpg') center no-repeat;
+    background-size: cover;
+    color: $join-us-color;
+
+    &-content {
+
+        &-text {
+            opacity: .5;
+            margin-bottom: 60px;
+        }
+    }
+}

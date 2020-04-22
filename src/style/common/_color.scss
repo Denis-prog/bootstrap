@@ -1,0 +1,79 @@
+$black       : #1d1d1d;
+$white       : #fff;
+$violet      : #70338f;
+$dark-violet : #40286a;
+$light-violet: #bfd2fa;
+$pink        : #f42267;
+$red         : #b82556;
+$purple      : #b032e2;
+$dark-blue   : #430c58;
+$gold        : #aaa716;
+$gray        : #f1f1f1;
+
+//main
+$main-color                 : $black;
+$main-link-color-variable-1 : $white;
+$main-link-color-variable-2 : $black;
+$main-link-read-more-bg     : $pink;
+$main-link-hover-color      : $pink;
+
+//header
+$header-page-nav-list-item-link-color    : $white;
+$header-page-content-color               : $white;
+$header-page-content-btns-item-show-story: $pink;
+$header-page-content-btns-item-show-more : $violet;
+$header-page-nav-button-menu-color       : $white;
+$header-page-content-bg                  : $black;
+
+//lineOfBusines
+$line-of-busines-content-btn-bg         : $pink;
+$line-of-busines-nav-item-link-active-bg: $pink;
+
+//progress
+$progress-bg                  : $violet;
+$progress-color               : $white;
+$progress-content-item-even-bg: $dark-violet;
+
+//join-us
+$join-us-color: $white;
+
+//ourTechnologies
+$our-technologies-content-video-link-hover                    : $light-violet;
+$our-technologies-content-video-gradient                      : $violet;
+$our-technologies-content-video-player-icon-circle-color-hover: $pink;
+$our-technologies-content-video-player-icon-oval-color-hover  : $black;
+$animate-change-border-color-icon-player-step-1               : $dark-violet;
+$animate-change-border-color-icon-player-step-2               : $pink;
+$our-technologies-content-text-icon-stop-color-15             : $pink;
+$our-technologies-content-text-icon-stop-color-30             : $red;
+$our-technologies-content-text-icon-stop-color-45             : $purple;
+$our-technologies-content-text-icon-stop-color-60             : $dark-blue;
+$our-technologies-content-text-icon-stop-color-75             : $gold;
+$our-technologies-content-text-icon-stop-color-90             : $violet;
+
+//ourWork
+$our-work-bg : $gray;
+
+//our-partners
+$our-partners-bg: $violet;
+
+//reviews
+$reviews-color                         : $white;
+$reviews-item-content-text-before-color: $red;
+
+//contactWithUs
+$contactWithUs-color                               : $white;
+$contactWithUs-content-form-submit-bg              : $violet;
+$contactWithUs-content-form-submit-color           : $white;
+$contactWithUs-content-form-input-placeholder-color: $white;
+
+
+//socialNetworks
+$social-networks-bg                       : $violet;
+$social-networks-color                    : $white;
+$social-networks-content-item-border-color: $light-violet;
+
+//footer
+$footer-bg                       : $gray;
+$footer-top-nav-item-title-color : $violet;
+$footer-top-nav-item-title-list-link-color: $black;

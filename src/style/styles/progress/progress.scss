@@ -1,0 +1,64 @@
+.progress {
+    background   : $progress-bg;
+    padding      : 0;
+    height       : auto;
+    color        : $progress-color;
+
+    &-content {
+
+        &-item {
+            padding: 70px 30px 100px 10px;
+
+            &:nth-child(even) {
+                background: $progress-content-item-even-bg;
+            }
+
+            &-icon {
+                font-size: $font-size-xxxl;
+                transform: rotate(-37deg);
+            }
+
+            &-title {
+                margin-bottom: 20px;
+                line-height  : 1.4em;
+            }
+
+            &-text {
+                opacity: .5;
+            }
+        }
+    }
+}
+
+@media(max-width: 992px) {
+
+    .progress-content-item-text {
+        font-size: $font-size-s-default;
+    }
+
+    .progress-content-item {
+        width: 80%;
+    }
+
+    .progress-content-item {
+        position     : relative;
+        padding-left : 0;
+        padding-right: 0;
+
+        &:nth-child(even):after,
+        &:nth-child(even)::before {
+            content         : "";
+            display         : block;
+            width           : 100%;
+            background-color: $progress-content-item-even-bg;
+            position        : absolute;
+            top             : 0;
+            bottom          : 0;
+            right           : 100%;
+        }
+
+        &:nth-child(even)::before {
+            left: 100%;
+        }
+    }
+}

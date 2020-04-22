@@ -1,0 +1,39 @@
+<svg version="1.1" id="layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 632.7 450" style="enable-background:new 0 0 632.7 450;" xml:space="preserve">
+	<style type="text/css">
+		.st0{fill:none;stroke:#000000;stroke-width:18;stroke-miterlimit:10;}
+		.st1{transform-box: fill-box;
+		transform-origin:50% 50%;}
+	</style>
+	<g id="anim" class="st1">
+		<polygon points="200.9,230.4 190.6,249.5 24.2,249.5 4.7,229.9" />
+		<polygon points="183.1,272.3 181.3,290.5 66.5,291.9 47,272.3" />
+		<polygon points="180,314.7 183,334.3 108.9,334.3 89.4,314.7" />
+		<polyline points="131.7,357.1 190.5,357.1 200.8,376.7 151.2,376.7" />
+		<polyline points="501.1,357.1 481.5,376.7 431.9,376.7 442.4,357.1" />
+		<polygon points="453,314.7 542.6,314.7 524,334.3 449.9,334.3" />
+		<polyline points="566.4,291.9 453,291.9 449.9,272.3 586,272.3" />
+		<polygon points="431.9,230 628.3,229.9 608.7,249.5 442.4,249.5" />
+		<animateTransform  additive="replace" attributeName="transform" calcMode="linear" class="icon-logo-mini" restart="whenNotActive" dur="1.8s" fill="remove" from="0"  to="0" type="rotate" values="0;30;0;-30;0">
+		</animateTransform>
+	</g>
+	<g id="text">
+		<rect x="305" y="273.9" width="12.8" height="61.9" />
+		<polygon points="257.3,323.4 241.5,273.9 223.5,273.9 223.5,335.8 235.6,335.8 235.6,289.6 250.5,335.8 264,335.8 278.5,289.9 
+		278.5,335.8 291,335.8 291,273.9 273,273.9 	" />
+		<rect x="398.1" y="273.9" width="12.8" height="61.9" />
+		<polygon points="371.7,318.8 347,273.9 331.9,273.9 331.9,335.8 344.2,335.8 344.2,291.1 368.9,335.8 384,335.8 384,273.9 
+		371.7,273.9 	" />
+	</g>
+	<ellipse class="st0" cx="315" cy="298.6" rx="136.5" ry="139" />
+	<defs>
+		<script>
+			setTimeout(
+			function restartAnimationIcon() {
+			const firstAnimates = document.querySelector(&apos;.icon-logo-mini&apos;);
+			firstAnimates.beginElement();
+			setTimeout(restartAnimationIcon, Math.floor((Math.random() * (20000 - 5000)) + 5000));
+			}, Math.floor((Math.random() * (20000 - 5000)) + 5000),
+			);
+		</script>
+	</defs>
+</svg>

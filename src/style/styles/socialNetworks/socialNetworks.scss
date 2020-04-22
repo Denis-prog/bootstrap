@@ -1,0 +1,32 @@
+.social-networks {
+    background: $social-networks-bg;
+    color     : $social-networks-color;
+    padding   : 25px 0;
+
+    &-content {
+
+        &-item {
+            font-size : $font-size-m;
+            color     : inherit;
+            width     : 20%;
+            text-align: center;
+
+            &:not(:first-child) {
+                border-left: 1px solid $social-networks-content-item-border-color;
+            }
+        }
+    }
+}
+
+@media(max-width: 575px) {
+    .social-networks-content-item {
+        width        : 50%;
+        flex-wrap    : wrap;
+        border-bottom: 1px solid $social-networks-content-item-border-color;
+        margin-bottom: 10px;
+
+        &:not(:first-child) {
+            border-left: none;
+        }
+    }
+}

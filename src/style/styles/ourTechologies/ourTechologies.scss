@@ -1,0 +1,187 @@
+.our-technologies {
+
+    &-content {
+
+        &-text-icon {
+            padding-left  : 20px;
+            padding-bottom: 10px;
+            width         : 25%;
+        }
+
+        &-video {
+            position  : relative;
+            background: black;
+
+            &-link,
+            &-media {
+                position: absolute;
+                top     : 0;
+                left    : 0;
+                width   : 100%;
+                height  : 100%;
+                border  : none;
+            }
+
+            &-media {
+                border: none;
+            }
+            
+            &-player-icon {
+                z-index: 11;
+            }
+
+            &-gradient {
+                position  : absolute;
+                background: transparentize($our-technologies-content-video-gradient, .4);
+                top       : 0;
+                left      : 0;
+                bottom    : 0;
+                right     : 0;
+                z-index   : 11;
+                opacity   : .8;
+            }
+
+            &-link {
+                z-index: 10;
+
+                &-hidden {
+                    display: none;
+                }
+
+                &:hover {
+
+                    .our-technologies-content-video {
+
+                        &-player-icon {
+                            transform: translate(-50%, -50%) scale(1);
+                        }
+
+                        &-gradient {
+                            background: $our-technologies-content-video-link-hover;
+                        }
+
+                        &-player {
+
+                            &-icon {
+
+                                &-border {
+                                    &-move {
+                                        animation: moveBorderIconPlayer 5s infinite;
+                                    }
+
+                                    &-color {
+                                        display  : block;
+                                        animation: changeBorderColorIconPlayer 5s infinite;
+                                    }
+                                }
+
+                                &-circle-color {
+                                    fill: $our-technologies-content-video-player-icon-circle-color-hover;
+                                }
+
+                                &-oval-color {
+                                    fill: $our-technologies-content-video-player-icon-oval-color-hover;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &-player-icon {
+                position           : absolute;
+                z-index            : 20;
+                top                : 50%;
+                left               : 50%;
+                transform          : translate(-50%, -50%) scale(0.5);
+                pointer-events     : none;
+                width              : 30%;
+                transition-duration: 1s;
+            }
+        }
+    }
+}
+
+$color-time:12s;
+$step      : $color-time/4;
+
+.our-technologies-content-text-icon-stop {
+    animation: changeOurTechnologiesIconGradient $color-time infinite;
+}
+
+.our-technologies-content-text-icon-stop-2 {
+    animation-delay: -$step;
+}
+
+.our-technologies-content-text-icon-stop-3 {
+    animation-delay: -$step*2;
+}
+
+
+@keyframes moveBorderIconPlayer {
+    0% {
+        transform       : rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+
+    50% {
+        transform       : rotate(360deg);
+        transform-origin: 50% 50%;
+    }
+
+    100% {
+        transform       : rotate(-360deg);
+        transform-origin: 50% 50%;
+    }
+}
+
+@keyframes changeBorderColorIconPlayer {
+
+    50% {
+        stroke: $animate-change-border-color-icon-player-step-1;
+    }
+
+    100% {
+        stroke: $animate-change-border-color-icon-player-step-2;
+    }
+}
+
+@keyframes changeOurTechnologiesIconGradient {
+    15% {
+        stop-color: $our-technologies-content-text-icon-stop-color-15;
+    }
+
+    30% {
+        stop-color: $our-technologies-content-text-icon-stop-color-30;
+    }
+
+    45% {
+        stop-color: $our-technologies-content-text-icon-stop-color-45;
+    }
+
+    60% {
+        stop-color: $our-technologies-content-text-icon-stop-color-60;
+    }
+
+    75% {
+        stop-color: $our-technologies-content-text-icon-stop-color-75;
+    }
+
+    90% {
+        stop-color: $our-technologies-content-text-icon-stop-color-90;
+    }
+}
+
+@media(max-width: 1199px) {
+
+    .our-technologies-content-video {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 991px) {
+
+    .our-technologies-content-video-player-icon {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
