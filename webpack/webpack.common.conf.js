@@ -94,8 +94,8 @@ module.exports = {
         }),
         new CopyWebpackPlugin([
             { from: `${PATHS.src}/img`, to: `${PATHS.assets}/img` },
-            { from: './node_modules/@fortawesome/fontawesome-free/webfonts', to: `${PATHS.assets}./icons` },
             { from: `${PATHS.src}/fonts`, to: `${PATHS.assets}/fonts` },
+            { from: './node_modules/@fortawesome/fontawesome-free/webfonts', to: `${PATHS.assets}/webfonts` },
         ]),
     ],
 };

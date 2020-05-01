@@ -1,13 +1,13 @@
 .progress {
-    background   : $progress-bg;
-    padding      : 0;
-    height       : auto;
-    color        : $progress-color;
+    background: $progress-bg;
+    padding   : 0;
+    color     : $progress-color;
+    height    : auto;
 
     &-content {
 
         &-item {
-            padding: 70px 30px 100px 10px;
+            padding: 100px 30px 80px 10px;
 
             &:nth-child(even) {
                 background: $progress-content-item-even-bg;
